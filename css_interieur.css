@@ -1,0 +1,244 @@
+/*ENSEMBLE*/
+body {
+background-image: url(img/fond2.png);
+background-repeat: repeat;
+margin:0;
+left:0;
+}
+
+@media screen and (max-width:1500px) {
+
+  html {
+   font-size: 14px; /* rendre les polices plus petites pour mobile */
+  }
+
+  p {
+   font-size: 1rem /* cet élément est désormais équivalent à 9px */
+  }
+
+/*IMAGES*/
+.contenu {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:2%;
+	width:25%;
+	z-index:0;
+}
+
+.contenu img {
+margin-left:60%;
+padding-top:1.8%;
+width:80%;
+padding-left:1%;
+margin-right:60%;
+}
+
+.projet1 p {
+margin-top:17%;
+margin-left:55%;
+width:90%;
+font-family:Verdana;
+color:grey;
+position:absolute;
+}
+
+.projet2 {
+margin-top:20%;
+}
+
+.projet3 {
+margin-top:20%;
+}
+
+.illus {
+margin-top:18%;
+}
+
+/*BANIERE HAUT*/
+.baniere img{
+position: fixed;
+width:100%;
+top: 0;
+left: 0;
+right: 0;
+z-index:1;
+}
+
+/*BANIERE BAS*/
+.footer img{
+width:100%;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+/*LOGO*/
+.espace_logo{
+overflow: hidden
+}
+
+#logo {
+width:8%;
+margin-left:1%;
+margin-top:2%;
+position: fixed;
+}
+
+.espace_logo p {
+width:8%;
+font-family:Verdana;
+margin-top:11%;
+margin-left:1%;
+color:grey;
+position:absolute;
+font-weight:bold;
+text-align:center;
+position:fixed;
+}
+
+.espace_logo a {
+position:fixed;
+}
+
+/*#fond {
+margin:0;
+padding:0;
+width:100%;
+  position:relative;
+  left:0;
+}*/
+
+/*TEXTE DE PRESENTATION*/
+.presentation {
+padding-top:3%;
+padding-bottom:3%;
+text-align:center;
+font-family:verdana;
+color:grey;
+font-size: 1 rem;
+}
+
+h1 {
+text-align:center;
+font-family:verdana;
+color:grey;
+font-size: 1.2rem;
+font-weight:bold;
+}
+
+.triangle {
+padding:1%;
+}
+
+/*#cv {
+margin:0;
+padding:0;
+width:100%;
+  position:relative;
+  left:0;
+}*/
+
+/*MOBILE*/
+@media screen and (max-width:960px) {
+
+/*LOGOS*/
+.espace_logo{
+overflow: hidden
+}
+
+#logo {
+width:25%;
+margin-left:2%;
+margin-top:12%;
+position:relative;
+}
+
+.espace_logo p {
+font-size:0;
+width:10%;
+margin-left:0%;
+margin-right:auto;
+position:absolute;
+}
+
+/*TEXTE DE PRESENTATION*/
+.presentation {
+margin-right:10%;
+margin-left:20%;
+padding-top:3%;
+padding-bottom:3%;
+text-align:left;
+font-family:verdana;
+color:grey;
+font-size:0.8rem;
+}
+
+h1 {
+text-align:center;
+font-family:verdana;
+color:#1c75a2;
+font-size: 1.2rem;
+font-weight:bold;
+}
+
+.triangle {
+margin-right:auto;
+}
+
+.triangle img{
+padding-top:7%;
+}
+
+/*IMAGES*/
+.contenu{
+    float:none;
+	position:relative;
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+
+.contenu img {
+margin-left:auto;
+padding-top:4%;
+width:100%;
+}
+
+.projet1 p {
+margin-top:10%;
+margin-left:auto;
+width:90%;
+font-family:Verdana;
+text-align:center;
+color:grey;
+position:relative;
+font-size:0.8rem;
+}
+
+/*BANIERE HAUT*/
+.baniere img{
+position: fixed;
+width:100%;
+height:3%;
+top: 0;
+left: 0;
+right: 0;
+z-index:1;
+}
+
+/*BANIERE BAS*/
+.footer img{
+width:100%;
+height:3%;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+}
