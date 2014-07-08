@@ -1,0 +1,180 @@
+/*ENSEMBLE*/
+body {
+background-image: url(img/fond2.png);
+background-repeat: repeat;
+margin:0;
+left:0;
+}
+
+@media screen and (max-width:1500px) {
+
+  html {
+   font-size: 14px; /* rendre les polices plus petites pour mobile */
+  }
+
+  p {
+   font-size: 1rem /* cet élément est désormais équivalent à 9px */
+  }
+
+/*PICTOGRAMMES*/
+.contenu {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:12%;
+}
+
+.contenu img {
+margin-left:133%;
+padding-top:4%;
+width:100%;
+}
+
+.contenu p {
+margin-left:265%;
+width:100%;
+font-family:Verdana;
+color:#1c75a2;
+text-align:center;
+font-size: 0.8rem;
+font-weight:bold;
+}
+
+.contenu a {
+margin-left:133%;
+padding-top:4%;
+}
+
+/*BANIERE HAUT*/
+.baniere img{
+width:100%;
+height:100%;
+}
+
+/*BANIERE BAS*/
+.footer img{
+width:100%;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+/*LOGO*/
+.espace_logo{
+overflow: hidden;
+}
+
+#logo {
+width:12%;
+position:relative;
+margin-left:44%;
+margin-top:2%;
+z-index:1;
+}
+
+/*#fond {
+margin:0;
+padding:0;
+width:100%;
+  position:relative;
+  left:0;
+}*/
+
+/*TEXTE DE PRESENTATION*/
+.presentation {
+padding-top:3%;
+padding-bottom:3%;
+text-align:center;
+font-family:verdana;
+color:grey;
+font-size: 1 rem;
+}
+
+h1 {
+text-align:center;
+font-family:verdana;
+color:grey;
+font-size: 1.2rem;
+font-weight:bold;
+}
+
+.triangle {
+padding:1%;
+}
+
+/*#cv {
+margin:0;
+padding:0;
+width:100%;
+  position:relative;
+  left:0;
+}*/
+
+/*MOBILE*/
+@media screen and (max-width:60em) {
+
+/*LOGOS*/
+.espace_logo{
+overflow: hidden;
+}
+
+#logo {
+width:25%;
+position:absolute;
+margin-left:2%;
+margin-top:5%;
+}
+
+/*TEXTE DE PRESENTATION*/
+.presentation {
+margin-right:5%;
+margin-left:30%;
+padding-top:3%;
+padding-bottom:3%;
+text-align:left;
+font-family:verdana;
+color:grey;
+font-size:12px;
+}
+
+h1 {
+text-align:left;
+font-family:verdana;
+color:grey;
+font-size: 1.2rem;
+font-weight:bold;
+}
+
+.triangle {
+margin-left:21%;
+margin-right:0;
+}
+
+.triangle img{
+padding-top:7%;
+}
+
+/*PICTOS*/
+.contenu{
+    float:none;
+	position:relative;
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width:70%;
+}
+
+.contenu img {
+margin-left:10%;
+padding-top:4%;
+width:100%;
+}
+
+.contenu a {
+margin-left:10%;
+padding-top:4%;
+}
+}
