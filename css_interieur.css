@@ -6,15 +6,13 @@ margin:0;
 left:0;
 }
 
-@media screen and (max-width:1500px) {
+html {
+font-size: 14px; /* rendre les polices plus petites pour mobile */
+}
 
-  html {
-   font-size: 14px; /* rendre les polices plus petites pour mobile */
-  }
-
-  p {
-   font-size: 1rem /* cet élément est désormais équivalent à 9px */
-  }
+p {
+font-size: 1rem /* cet élément est désormais équivalent à 9px */
+}
 
 /*IMAGES*/
 .contenu {
