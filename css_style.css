@@ -1,10 +1,12 @@
 /*ENSEMBLE*/
 body {
-background-image: url(img/fond3.png);
+background-image: url(img/fond2.png);
 background-repeat: repeat;
 margin:0;
 left:0;
 }
+
+
 
 html {
 font-size: 14px; /* rendre les polices plus petites pour mobile */
@@ -16,7 +18,7 @@ font-size: 1rem /* cet élément est désormais équivalent à 9px */
 
 /*PICTOGRAMMES*/
 .contenu {
-    display:inline;
+	display:inline;
 	float: left;
 	position: relative;
 	margin-left: auto;
@@ -33,45 +35,16 @@ width:100%;
 .contenu p {
 margin-left:265%;
 width:100%;
-font-family:'Yanone Kaffeesatz', Arial;
-color:grey;
+font-family:Verdana;
+color:#1c75a2;
 text-align:center;
-font-size: 1.5rem;
-font-style:bold;
+font-size: 0.8rem;
+font-weight:bold;
 }
 
 .contenu a {
 margin-left:133%;
 padding-top:4%;
-}
-
-/*MENU*/
-.menus {
-margin-top:4%;
-margin-bottom:1%;
-margin-left:auto;
-margin-right:auto;
-text-align:center;
-}
-
-.contenu_menu{
-display:inline;
-margin-left:auto;
-margin-right:auto;
-margin-top:4%;
-margin-bottom:1%;
-}
-
-.contenu_menu img {
-margin-left:auto;
-margin-right:auto;
-width:11%;
-}
-
-.contenu_menu a {
-margin-left:auto;
-margin-right:auto;
-width:13%;
 }
 
 /*BANIERE HAUT*/
@@ -83,189 +56,74 @@ height:100%;
 /*BANIERE BAS*/
 .footer img{
 width:100%;
+position: fixed;
 bottom: 0;
 left: 0;
 right: 0;
 }
 
-.footer p{
-left: 0;
-right: 0;
-padding-top:1%;
-font-family:'Yanone Kaffeesatz', Arial;
-color:grey;
-text-align:center;
-font-size: 1rem;
-font-style:bold;
-}
-
 /*LOGO*/
-.espace_logo2{
-text-align:center;
-margin-left:auto;
-margin-right:auto;
-margin-top:2%;
-margin-bottom:1%;
-position:relative;
-}
-
-.espace_logo2 a{
+.espace_logo{
 overflow: hidden;
 }
 
-#logo2 {
-width:10%;
+#logo {
+width:12%;
+position:relative;
+margin-left:44%;
+margin-top:2%;
 z-index:1;
 }
 
-/*ILLUS*/
-.illus {
+/*#fond {
+margin:0;
+padding:0;
+width:100%;
+  position:relative;
+  left:0;
+}*/
+
+/*TEXTE DE PRESENTATION*/
+.presentation {
 padding-top:3%;
-}
-
-.illus img {
-margin-top:2%;
-margin-bottom:1%;
-margin-left:auto;
-margin-right:auto;
-display:block;
-}
-
-.contenu_illu p{
-font-family:'Yanone Kaffeesatz', Arial;
+padding-bottom:3%;
+text-align:center;
+font-family:verdana;
 color:grey;
-font-size: 1.3rem;
-padding-top:2%;
+font-size: 1 rem;
+}
+
+h1 {
 text-align:center;
-position:relative;
-display:block;
-}
-
-.contenu_illu a {
-color:#78c2aa;
-text-decoration:none;
-}
-
-.contenu_illu{
-position:relative;
-display:inline;
-margin-left:auto;
-margin-right:auto;
-margin-top:1.2%;
-margin-bottom:1%;
-}
-
-.titregris{
-margin:auto;
-width:80%;
-font-family:'Yanone Kaffeesatz', Arial;
-color:#3e3d40;
-text-align:center;
+font-family:verdana;
+color:grey;
 font-size: 1.2rem;
-font-style:bold;
+font-weight:bold;
 }
 
-/*CV*/
-.contenu_cv {
-	display:inline;
-	float: left;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom:2%;
-	width:25%;
-	z-index:0;
+.triangle {
+padding:1%;
 }
 
-.contenu_cv img {
-	padding:0%;
-	margin-left:70%;
-	width:55%;
-	margin-right:auto;
-}
-
-.contenu_cv p {
-	margin-left:60%;
-	margin-right:auto;
-	width:80%;
-	font-family:'Yanone Kaffeesatz', Arial;
-	color:grey;
-	text-align:left;
-	font-size: 1.2rem;
-	font-style:bold;
-}
-
-.logo_cv {
-	display:inline;
-	float:left;
-	margin-left:-10%;
-	margin-top:5%;
-	margin-right: auto;
-	margin-bottom:2%;
-	width:70%;
-	z-index:0;
-}
-
-/*IMAGES*/
-.titreorange{
-margin-left:60%;
-margin-right:auto;
-width:80%;
-font-family:'Yanone Kaffeesatz', Arial;
-background:#F79C57;
-color:white;
-text-align:center;
-font-size: 1.2rem;
-font-style:bold;
-}
-
-.titrerose{
-margin-left:60%;
-margin-right:auto;
-width:80%;
-font-family:'Yanone Kaffeesatz', Arial;
-background:#F27280;
-color:white;
-text-align:center;
-font-size: 1.2rem;
-font-style:bold;
-}
-
-.titrebleu{
-margin-left:60%;
-margin-right:auto;
-width:80%;
-font-family:'Yanone Kaffeesatz', Arial;
-background:#63C6B3;
-color:white;
-text-align:center;
-font-size: 1.2rem;
-font-style:bold;
-}
-
-.projet2 {
-margin-top:6%;
-}
-
-.projet3 {
-position:absolute;
-margin-top:27%;
-}
+/*#cv {
+margin:0;
+padding:0;
+width:100%;
+  position:relative;
+  left:0;
+}*/
 
 /*MOBILE*/
 @media screen and (max-width:60em) {
 
-/*BANIERE*/
-.baniere{
-}
-
 /*LOGOS*/
-.espace_logo2{
+.espace_logo{
 overflow: hidden;
 }
 
-#logo2 {
+#logo {
 width:25%;
+position:absolute;
 margin-left:2%;
 margin-top:5%;
 }
@@ -324,108 +182,4 @@ padding-top:4%;
 margin-left:20%;
 padding-top:4%;
 }
-
-/*ILLUS*/
-.menus {
-margin-top:4%;
-margin-bottom:1%;
-margin-left:auto;
-margin-right:auto;
-text-align:center;
-}
-
-.contenu_menu{
-display:inline;
-margin-left:auto;
-margin-right:auto;
-margin-top:4%;
-margin-bottom:1%;
-}
-
-.contenu_menu img {
-margin-left:auto;
-margin-right:auto;
-width:50%;
-}
-
-.contenu_menu a {
-margin-left:auto;
-margin-right:auto;
-width:50%;
-}
-
-.contenu_illu img{
-	margin-left: auto;
-	margin-right: auto;
-	width:100%;
-}
-
-/*CV*/
-.contenu_cv {
-	position:relative;
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom:2%;
-	width:100%;
-	z-index:0;
-}
-
-.contenu_cv p {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	width:100%;
-	font-family:'Yanone Kaffeesatz', Arial;
-	color:grey;
-	text-align:center;
-	font-size: 1.2rem;
-	font-style:bold;
-}
-
-.titreorange{
-margin-left:auto;
-margin-right:auto;
-width:100%;
-font-family:'Yanone Kaffeesatz', Arial;
-background:#F79C57;
-color:white;
-text-align:center;
-font-size: 1.2rem;
-font-style:bold;
-}
-
-.titrerose{
-margin-left:auto;
-margin-right:auto;
-width:100%;
-font-family:'Yanone Kaffeesatz', Arial;
-background:#F27280;
-color:white;
-text-align:center;
-font-size: 1.2rem;
-font-style:bold;
-}
-
-.titrebleu{
-margin-left:auto;
-margin-right:auto;
-width:100%;
-font-family:'Yanone Kaffeesatz', Arial;
-background:#63C6B3;
-color:white;
-text-align:center;
-font-size: 1.2rem;
-font-style:bold;
-}
-
-.projet2 {
-margin-top:3%;
-}
-
-.projet3 {
-position:relative;
-margin-top:17%;
-}
-
 }
