@@ -26,7 +26,7 @@ font-size: 1rem /* cet élément est désormais équivalent à 9px */
 
 .contenu img {
 margin-left:133%;
-padding-top:4%;
+margin-top:12%;
 width:100%;
 }
 
@@ -42,7 +42,8 @@ font-style:bold;
 
 .contenu a {
 margin-left:133%;
-padding-top:4%;
+margin-top:12%;
+width:100%;
 }
 
 /*MENU*/
