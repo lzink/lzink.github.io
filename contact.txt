@@ -23,9 +23,11 @@
 			<!--CATEGORIES-->
 			<div class="images_index">
 			
-					<div class="contenu_texte"><h1>Bienvenue !</h1>
-					<p>Je m'appelle Léna, j'ai 21 ans. Je viens de terminer mes études 
-					</br>en graphisme et webdesign. Je vous invite à découvrir mon portfolio :</p>
+					<div class="contenu_texte"><p>Bienvenue !
+					</br>
+					</br>Je m'appelle Léna, j'ai 21 ans. Je viens de terminer mes études 
+					</br>en graphisme et webdesign. Je vous invite à découvrir mon portfolio 
+					</br>graphique en cliquant sur les liens ci-dessous :</p>
 					</div>
 					
 					<div class="contenu">
@@ -41,7 +43,7 @@
 						<p>MES INSPIRATIONS</p>
 					</div>
 					
-					<div class="contenu_texte_bas"><p>2015 - Léna Zink. Graphisme, illustration, webdesign. </br><a href="mentions.html">Mentions légales et Contact</a></p></div>
+					<div class="contenu_texte_bas"><p>Mentions Légales | Contact</p></div>
 			</div>
 
 </body>
